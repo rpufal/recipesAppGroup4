@@ -1,0 +1,115 @@
+@import './Paleta.css' ;
+
+/* Perfil button */
+.profile-top-btn {
+  background-color: var(--colorInfo5);
+  border: 0.1px solid var(--colorWarning4);
+  border-radius: 100%;
+  box-shadow: var(--boxShadow6);
+  padding: 4px 8px 9px;
+  position: fixed;
+  right: 10px;
+  top: 14px;
+}
+
+.profile-top-btn img {
+  width: 50px;
+}
+
+.page-title {
+  background-color: var(--colorWarning2);
+  color: var(--colorInfo5);
+  font-weight: 700;
+  padding: 10px;
+}
+
+
+.search-top-btn {
+  background-color: var(--colorInfo5);
+  border: 0.1px solid var(--colorWarning4);
+  border-radius: 100%;
+  box-shadow: var(--boxShadow6);
+  padding: 1px 8px 5px;
+  position: absolute;
+  right: 60px;
+  top: 18px;
+}
+
+.search-top-btn img {
+  width: 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 27%;
+}
+
+.category-filter-tags {
+  background-color: var(--colorSuccess3);
+  border: none;
+  border-radius: 5px;
+  border-width: thin;
+  box-shadow: var(--boxShadow4);
+  color: white;
+  font-size: 76%;
+  font-weight: 200;
+  height: 45px;
+  margin: 10px;
+  padding: 0.5em;
+}
+
+.recipe-card {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.listCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+
+.listCard a div {
+  margin: 10px 5px;
+}
+
+.listCard p {
+  max-width: 150px;
+  overflow: hidden;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.listCard img {
+  box-shadow: var(--boxShadow3);
+  padding-top: 10px;
+  width: 100px;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .buttons button {
+    font-size: 15px;
+    width: 26%;
+  }
+
+  .listCard p {
+    font-size: 15px;
+  }
+
+  .listCard {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+}

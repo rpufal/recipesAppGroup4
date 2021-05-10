@@ -1,0 +1,42 @@
+.ingredient-section {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 85px;
+  width: 100%;
+}
+
+.ingredient-card {
+  background-color: var(--colorWarning4);
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 10px;
+  padding: 3px;
+  text-align: center;
+  width: 150px;
+}
+
+.ingredient-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .ingredient-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+}
+
+@media only screen and ( min-width : 992px ) {
+
+  .ingredient-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+}
